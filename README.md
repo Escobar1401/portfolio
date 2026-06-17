@@ -2,7 +2,7 @@
 
 Frontend & Mobile Developer
 
-[Live Demo](#) • [LinkedIn](#) • [CV](#)
+[Live Demo](#) • [LinkedIn](https://www.linkedin.com/in/felipe-escobar-24187b2a7/) • [CV](#)
 
 ![CAPTURA_PRINCIPAL](./public/CAPTURA_PRINCIPAL.png)
 
