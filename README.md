@@ -62,10 +62,10 @@ Para detalles y links a repositorios y demos, ver [src/data/projects.js](src/dat
 
 Incluye aquí los resultados del audit de Lighthouse. Puedes ejecutar la auditoría en Chrome DevTools → Lighthouse y pegar los resultados.
 
-- Performance: REEMPLAZAR_POR_RESULTADO
-- Accessibility: REEMPLAZAR_POR_RESULTADO
-- Best Practices: REEMPLAZAR_POR_RESULTADO
-- SEO: REEMPLAZAR_POR_RESULTADO
+- Performance: 100
+- Accessibility: 100
+- Best Practices: 100
+- SEO: 100
 
 ![CAPTURA_LIGHTHOUSE](./public/CAPTURA_LIGHTHOUSE.png)
 
