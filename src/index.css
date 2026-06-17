@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --bg: #ffffff;
+  --text: #111827;
+  --scrollbar-width: 12px;
+  --scrollbar-track: rgba(15, 23, 42, 0.03);
+  --scrollbar-thumb-start: #7c3aed;
+  --scrollbar-thumb-end: #06b6d4;
+  --scrollbar-thumb-hover: rgba(124, 58, 237, 0.9);
+}
+
+[data-theme="dark"] {
+  --bg: #0A0A0A;
+  --text: #fafafa;
+  --scrollbar-width: 12px;
+  --scrollbar-track: rgba(255, 255, 255, 0.02);
+  --scrollbar-thumb-start: #06b6d4;
+  --scrollbar-thumb-end: #7c3aed;
+  --scrollbar-thumb-hover: rgba(6, 182, 212, 0.9);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  scrollbar-gutter: stable;
+}
+
+/* Modern scrollbar styling */
+html {
+  scrollbar-width: thin;
+  /* Firefox */
+  scrollbar-color: var(--scrollbar-thumb-start) transparent;
+  /* fallback */
+}
+
+/* Firefox better control */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb-start) var(--scrollbar-track);
+}
+
+/* WebKit browsers */
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--scrollbar-thumb-start), var(--scrollbar-thumb-end));
+  border-radius: 9999px;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  box-shadow: 0 2px 10px rgba(2, 6, 23, 0.12);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  filter: brightness(0.95);
+}
+
+/* Make sure focused elements remain accessible */
+:focus {
+  outline: none;
+}

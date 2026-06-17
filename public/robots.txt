@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Si tienes un sitemap, descomenta/actualiza la siguiente línea con tu dominio real:
+# Sitemap: https://tusitio.com/sitemap.xml
