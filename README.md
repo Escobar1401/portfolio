@@ -72,7 +72,7 @@ Incluye aquí los resultados del audit de Lighthouse. Puedes ejecutar la auditor
 **Instalación y ejecución (desarrollo)**
 
 ```bash
-git clone <REPO_URL>
+git clone https://github.com/Escobar1401/portfolio
 cd my-portfolio-react
 npm install
 npm run dev
@@ -103,46 +103,13 @@ COLOCA_LAS_IMAGENES_AQUI
 
 - Frontend: React 19 + Vite
 - Estilos: Tailwind CSS
-- Estado global: Zustand (tema)
 - Animaciones: Framer Motion
 - Iconografía: Lucide + react-icons
 - Ruteo: react-router-dom
 - Linter: ESLint
-
-**Cómo contribuir**
-
-1. Haz fork del repositorio
-2. Crea una branch: `feature/mi-cambio`
-3. Abre un PR describiendo el cambio
 
 **Contacto**
 
 - Nombre: Luis Felipe Cano Escobar
 - Email: luis1401cano2005@gmail.com
 - GitHub: https://github.com/Escobar1401
-
-----
-
-Si quieres, puedo:
-
-- Ejecutar una auditoría Lighthouse y pegar los resultados en el README
-- Generar capturas (si me indicas cómo prefieres las imágenes)
-- Publicar el sitio en Vercel (si me das acceso o instrucciones)
-
-Archivo actualizado: [README.md](README.md)
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
